@@ -5,6 +5,8 @@ one more line
 
 and more
 
-conflict line
+new chars in front of some line
 
-another conflict line
+and some more lines
+
+line after reverted merge commit
