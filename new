@@ -3,6 +3,4 @@ line from the rerere branch
 
 line for merge --ff-only
 
-new conflicting line
-
-new sixth line for resolving conflict asdfasfd
+new sixth line for resolving conflict
