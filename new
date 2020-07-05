@@ -4,3 +4,5 @@ line from the rerere branch
 line for merge --ff-only
 
 new conflicting line
+
+some line for pre-commit script test
