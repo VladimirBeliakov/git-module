@@ -6,3 +6,5 @@ line for merge --ff-only
 new conflicting line
 
 some line for pre-commit script test
+
+pre-commit with time and date
