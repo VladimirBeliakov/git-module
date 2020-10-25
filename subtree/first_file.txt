@@ -8,3 +8,5 @@ Another line
 asdfasdf
 
 testing subtrees
+
+new line in the subtree
