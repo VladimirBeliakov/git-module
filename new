@@ -5,7 +5,7 @@ line for merge --ff-only
 
 new conflicting line
 
-changing line before merge
+changing line before rebase
 
 pre-commit with time and date
 
