@@ -3,8 +3,9 @@ line from the rerere branch
 
 line for merge --ff-only
 
-new conflicting line
+asdfasdf
 
+<<<<<<< HEAD
 changing line before rebase
 
 pre-commit with time and date
@@ -12,3 +13,6 @@ pre-commit with time and date
 checking the pre-commit hook
 
 test line
+=======
+new sixth line for resolving conflict asdfasfd
+>>>>>>> d744ea4

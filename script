@@ -1,0 +1,19 @@
+#!/bin/bash
+
+newrev="$3"
+
+if [ "${newrev}" == "0000000000000000000000000000000000000000" ] || [ "${newrev}" == "" ]
+then
+    exit 0
+fi
+    
+# If the current commit is a merge commit, the count will be 1, otherwise 0.
+mergeCommitCount=$(git rev-list --merges --count ${newrev}~1..${newrev})
+
+if [ "${mergeCommitCount}" -eq 1 ]
+then
+    echo "Pushing merge commits is not allowed. Please rebase your changes and push again."
+    exit 1
+fi
+
+exit 0
