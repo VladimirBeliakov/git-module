@@ -7,3 +7,5 @@ line for stash branch
 one line for one commit
 
 one line for another commit
+
+lf should be replace with crlf in this file.
